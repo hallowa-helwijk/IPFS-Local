@@ -12,3 +12,5 @@ To make the Windows client behave as expected and to run well with headscale, tw
 
 HKLM:\SOFTWARE\Tailscale IPN\UnattendedMode must be set to always as a string type, to allow Tailscale to run properly in the background
 HKLM:\SOFTWARE\Tailscale IPN\LoginURL must be set to <YOUR HEADSCALE URL> as a string type, to ensure Tailscale contacts the correct control server.
+
+Now you have a local network on IPFS between 2 computers.
